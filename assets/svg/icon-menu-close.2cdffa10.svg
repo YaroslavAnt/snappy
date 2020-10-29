@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-menu-close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iPhone-5/5S/5C" sketch:type="MSArtboardGroup" transform="translate(-306.000000, -28.000000)" fill-opacity="0.79517663" fill="#000000">
+            <path d="M312,32.5857864 L307.757976,28.3437621 C307.364654,27.9504405 306.73367,27.9526215 306.343146,28.3431458 C305.949899,28.7363927 305.952897,29.367111 306.343762,29.7579757 L310.585786,34 L306.343762,38.2420243 C305.95044,38.635346 305.952621,39.26633 306.343146,39.6568542 C306.736393,40.0501012 307.367111,40.0471026 307.757976,39.6562379 L312,35.4142136 L316.242024,39.6562379 C316.635346,40.0495595 317.26633,40.0473785 317.656854,39.6568542 C318.050101,39.2636073 318.047103,38.632889 317.656238,38.2420243 L313.414214,34 L317.656238,29.7579757 C318.04956,29.364654 318.047379,28.73367 317.656854,28.3431458 C317.263607,27.9498988 316.632889,27.9528974 316.242024,28.3437621 L312,32.5857864 Z" id="icon-menu-close" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snappy</title>
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../styles/main.css" />
+    <link rel="stylesheet" href="../../styles/layout.css" />
+    <link rel="stylesheet" href="../../styles/button.css" />
+    <link rel="stylesheet" href="../../styles/helpers.css" />
+    <link rel="stylesheet" href="../../styles/typo.css" />
+    <link rel="stylesheet" href="../../styles/card.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav nav--desktop">
+        <ul>
+          <li><a href="">Help</a></li>
+          <li><a href="">FAQ</a></li>
+        </ul>
+      </nav>
+      <a href="../../index.html">
+        <img src="../../assets//svg/header-logo.350609d3.svg" alt=""
+      /></a>
+
+      <a href="#" class="button button--blue show-from-md">Get Snappy</a>
+      <div class="menu-btn hide-from-md is-menu-open">
+        <img
+          src="../../assets/svg/icon-menu-close.2cdffa10.svg"
+          alt="menu-close"
+        />
+        <img src="../../assets/svg/icon-menu.c32724f7.svg" alt="menu" />
+      </div>
+
+      <nav class="nav nav--mobile">
+        <ul>
+          <li><a href="#">Activities</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#" class="button button--blue">Get Snappy</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="cards-controls">
+          <div>
+            <select id="sortByPrice">
+              <option value="" disabled selected>Select sort</option>
+              <option value="cheap to expensive">Cheap to expensive</option>
+              <option value="expensive to cheap">Expensive to cheap</option>
+            </select>
+
+            <select id="filterByCategory">
+              <option value="" disabled selected>Select category</option>
+            </select>
+          </div>
+
+          <span class="h2" id="total">Total results: </span>
+        </div>
+
+        <div id="card-container"></div>
+
+        <button class="button button--red" id="show-more">Show more</button>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="50px" viewBox="0 0 60 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-platform-microsoft</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="section-icons" sketch:type="MSArtboardGroup" transform="translate(-460.000000, -326.000000)">
+            <g id="icon-platform-microsoft" sketch:type="MSLayerGroup" transform="translate(460.000000, 326.000000)">
+                <path d="M1,6.00631606 L1,6.00631606 L1,43.9936839 C1,46.7593973 3.2384931,49 6.0000383,49 L53.9999617,49 C56.755935,49 59,46.7557388 59,43.9936839 L59,6.00631606 C59,3.24060272 56.7615069,1 53.9999617,1 L6.0000383,1 C3.24406503,1 1,3.24426116 1,6.00631606 L1,6.00631606 Z M0,6.00631606 C0,2.6891193 2.69463714,0 6.0000383,0 L53.9999617,0 C57.3136914,0 60,2.68821716 60,6.00631606 L60,43.9936839 C60,47.3108807 57.3053629,50 53.9999617,50 L6.0000383,50 C2.68630865,50 0,47.3117828 0,43.9936839 L0,6.00631606 L0,6.00631606 Z" id="Shape" fill="#B6DEFF" sketch:type="MSShapeGroup"></path>
+                <path d="M16,24 L16,15 L27,13.0357143 L27,13.0357143 L27,24 L16,24 Z M16,26 L16,35 L27,36.9642857 L27,26 L16,26 Z M44,24 L44,10 L29,12.6785714 L29,12.6785714 L29,24 L44,24 Z M44,26 L44,40 L29,37.3214286 L29,26 L44,26 Z" id="microsoft" fill="#29A0FF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

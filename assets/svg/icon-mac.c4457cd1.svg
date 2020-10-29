@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="68px" height="40px" viewBox="0 0 68 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-mac</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="download" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="download-announcing-windows" sketch:type="MSArtboardGroup" transform="translate(-326.000000, -391.000000)" fill="#343434">
+            <path d="M333,393.13567 C333,391.956172 333.960189,391 335.133496,391 L384.866504,391 C386.044801,391 387,391.951794 387,393.13567 L387,428 L333,428 L333,393.13567 Z M335,393.531717 C335,393.238058 335.245442,393 335.527693,393 L384.472307,393 C384.763744,393 385,393.246652 385,393.531717 L385,425.468283 C385,425.761942 384.754558,426 384.472307,426 L335.527693,426 C335.236256,426 335,425.753348 335,425.468283 L335,393.531717 Z M392.484144,430.757928 C392.216759,430.891621 391.768257,431 391.465939,431 L328.534061,431 C328.239107,431 327.785965,430.892982 327.515856,430.757928 L326.484144,430.242072 C326.216759,430.108379 326,429.754761 326,429.474524 L326,428 L394,428 L394,429.474524 C394,429.764736 393.785965,430.107018 393.515856,430.242072 L392.484144,430.757928 Z M356,428 L364,428 L364,428.5 C364,428.776142 363.769203,429 363.499564,429 L356.500436,429 C356.224053,429 356,428.768066 356,428.5 L356,428 Z" id="icon-mac" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

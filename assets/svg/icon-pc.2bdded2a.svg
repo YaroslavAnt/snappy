@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="68px" height="40px" viewBox="0 0 68 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-pc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="download" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="download-announcing-windows" sketch:type="MSArtboardGroup" transform="translate(-926.000000, -392.000000)" fill="#29A0FF">
+            <path d="M933,394.13567 C933,392.956172 933.960189,392 935.133496,392 L984.866504,392 C986.044801,392 987,392.951794 987,394.13567 L987,429 L933,429 L933,394.13567 Z M936,395.538063 C936,395.240899 936.235625,395 936.539062,395 L983.460938,395 C983.758653,395 984,395.231703 984,395.538063 L984,425.461937 C984,425.759101 983.764375,426 983.460938,426 L936.539062,426 C936.241347,426 936,425.768297 936,425.461937 L936,395.538063 Z M993.383766,431.616234 C993.171818,431.828182 992.761015,432 992.468737,432 L927.531263,432 C927.237855,432 926.825813,431.825813 926.616234,431.616234 L926.383766,431.383766 C926.171818,431.171818 926,430.754761 926,430.474524 L926,429 L994,429 L994,430.474524 C994,430.764736 993.825813,431.174187 993.616234,431.383766 L993.383766,431.616234 Z" id="icon-pc" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
