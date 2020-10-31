@@ -3,8 +3,13 @@
   grid-gap: 12px;
   padding: 12px;
   background-color: #f4f4f4;
-  grid-template-columns: 200px 1fr;
   margin-bottom: 32px;
+}
+
+@media screen and (min-width: 800px){
+  .card{
+    grid-template-columns: 200px 1fr;
+  }
 }
 
 .card__controls, .card__content{
@@ -15,6 +20,13 @@
 .card__controls{
   flex-direction: column;
   padding: 24px 24px 36px;
+  grid-row: 2;
+}
+
+@media screen and (min-width: 800px){
+  .card__controls{
+    grid-row: unset;
+  }
 }
 
 .card__controls-btn{
@@ -31,6 +43,8 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  max-width: 200px;
+  margin: 0 auto;
 }
 
 .card__controls-count{
@@ -60,6 +74,16 @@
   cursor: pointer;
 }
 
+.card__content{
+  flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 600px){
+  .card__content{
+    flex-direction: row;
+  }
+}
+
 .card__content-text{
   padding: 24px 24px 0;
   display: flex;
@@ -71,11 +95,18 @@
 }
 
 .card__content-img{
-  width: 260px;
   flex-shrink: 0;
   background-size: cover;
   background-position: center;
   position: relative;
+  padding-top: 50%;
+}
+
+@media screen and (min-width: 600px){
+  .card__content-img{
+    width: 260px;
+    padding-top: unset
+  }
 }
 
 .card__content-gallery{

@@ -2,17 +2,16 @@
 
 @media screen and (max-width: 767px){
   .show-from-md{
-    display: none;
+    display: none!important;
   }
 }
 
 @media screen and (min-width: 768px){
   .hide-from-md{
-    display: none;
+    display: none!important;
   }
 }
 
 .hide{
-  display: none;
-  
+  display: none!important;  
 }

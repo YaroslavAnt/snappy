@@ -217,6 +217,29 @@ section{
   grid-column: 3/5;
 }
 
+.section-get__tile{
+  display: grid;
+  grid-gap: 24px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px){
+  .section-get__tile{    
+    grid-template-columns: 1fr 1fr;    
+  }
+}
+
+.section-get__tile>div{
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 32px 32px; */
+}
+
+.section-get__tile img{
+  justify-self: center;
+}
+
 /* -------------------------------------------------------- */
 
 

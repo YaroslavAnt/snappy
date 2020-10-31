@@ -16,15 +16,17 @@ header{
 header .nav{
   display: flex;
   color: #999;
+  min-width: 20px;
 }
 
 header .nav--mobile{
   flex-direction: column;
   position: fixed;
-  top: 68px;
+  top: 70px;
   left: 0;
   right: 0;
   border-bottom: 1px solid #aaa;
+  background-color: #fff;
 }
 
 @media screen and (min-width: 650px){
@@ -54,6 +56,13 @@ header .menu-btn{
   cursor: pointer;
 }
 
+/* header img[alt='logo']{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+/* 
 header img[alt='menu-close']{
   display: none;
 }
@@ -64,7 +73,7 @@ header .is-menu-open img[alt='menu-close']{
 
 header .is-menu-open img[alt='menu']{
   display: none;
-}
+} */
 
 header .nav--desktop ul{
   display: flex;
@@ -80,36 +89,48 @@ main{
   overflow: hidden;
 }
 
-.section-subscribe{
+.footer-subscribe{
   padding-bottom: 30px;
   padding-top: 30px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
 }
 
-.section-subscribe__grid{
+.footer-subscribe__tile{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   grid-gap: 24px;
 }
 
-.section-subscribe__col-1-3{
+@media screen and (min-width: 768px){
+  .footer-subscribe__tile{    
+    grid-template-columns: 1fr 1fr;    
+  }
+}
+
+.footer-subscribe__tile>div{
+  display: grid;
+  grid-gap: 12px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 32px 32px;
+}
+
+.footer-subscribe__tile-1-3{
   grid-column: 1/3;
 }
-.section-subscribe__col-3-5{
-  grid-column: 3/5;
-}
-.section-subscribe__form{
+
+.footer-subscribe__form{
   display: flex;
   border: 1px solid #aaa;
   border-radius: 4px;
 }
-.section-subscribe__form input{
+.footer-subscribe__form input{
   flex:1;
   background-color: #ddd;
   border: none;
   border-right: 1px solid #aaa;
   padding: 6px;
 }
-.section-subscribe__form button{
+.footer-subscribe__form button{
   border: none;
   background-color: #fff;
   cursor: pointer;

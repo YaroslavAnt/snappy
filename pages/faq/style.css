@@ -1,0 +1,52 @@
+
+h1.title{
+  padding: 40px 20px;
+  background: linear-gradient(180deg, white, 50%, rgba(255,255,255,.5));
+  position: relative;
+}
+h1.title::before{
+  content:'';
+  display: block;
+  background-image: url('../../assets/img/pattern-hero.9dd4be84.png');
+  z-index: -1;
+  position: absolute;
+  top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+section{
+  padding: 100px 0 40px;
+}
+.article{
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+
+.article__header{
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  line-height: 24px;
+  background: #fff;
+  padding: 14px;
+  border-bottom: 1px solid #bbb;
+}
+
+.article__main{
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555;
+  background-color: #fafafa;
+  line-height: 19px;
+}
+
+.article__main p {
+  margin-bottom: 20px;
+}
+
+.article__main p:last-child{
+  margin-bottom: unset;
+}

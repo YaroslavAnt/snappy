@@ -1,0 +1,108 @@
+
+h1.title{
+  padding: 40px 20px;
+  background: linear-gradient(180deg, white, 50%, rgba(255,255,255,.5));
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+h1.title::before{
+  content:'';
+  display: block;
+  background-image: url('../../assets/img/pattern-hero.9dd4be84.png');
+  z-index: -1;
+  position: absolute;
+  top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+section.container{
+  padding: 100px 20px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width:768px){
+  section.container{
+    flex-direction: row;
+  }
+}
+
+section>nav{
+  margin-right: 24px;
+}
+
+section>div{
+  flex:1
+}
+
+.article{
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+
+.article__header{
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  line-height: 24px;
+  background: #fff;
+  padding: 14px;
+  border-bottom: 1px solid #bbb;
+}
+
+.article__main{
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555;
+  background-color: #fafafa;
+  line-height: 19px;
+}
+
+.article__main--table{
+  padding: 0;
+}
+
+.article__table{
+  width: 100%;
+}
+
+.article__table thead{
+  font-weight: 300;
+  font-size: 16px;
+  background-color: #f5f5f5;
+}
+
+th{
+  padding: 14px;
+}
+td{
+  padding: 8px 14px;
+}
+
+.article__main p {
+  margin-bottom: 20px;
+}
+
+.article__main p:last-child{
+  margin-bottom: unset;
+}
+
+.key{
+  width: 26px;
+  height: 26px;
+  margin: 2px;
+  color: #333;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Roboto,sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  background: #f0f0f0;
+  display: inline-block;
+}

@@ -87,6 +87,8 @@ $(document).ready(function () {
       flag = 1
     }
 
+    $('.card').remove()
+
     $.each(
       localActivities
         .filter((activity) =>
@@ -158,12 +160,11 @@ $(document).ready(function () {
   })
 
   $('#sortByPrice').change(function (e) {
-    $('.card').remove()
     sortBy = e.target.value
     renderCards()
   })
+
   $('#filterByCategory').change(function (e) {
-    $('.card').remove()
     filterBy = e.target.value
     renderCards()
   })
@@ -172,7 +173,6 @@ $(document).ready(function () {
     if (countToShow < localActivities.length) {
       countToShow++
     }
-    $('.card').remove()
     renderCards()
   })
 
