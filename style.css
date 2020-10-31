@@ -16,7 +16,21 @@ section{
 }
 .section-hero__text{
   padding: 40px 20px 0 ;
+  background: linear-gradient(180deg, white, 50%, rgba(255,255,255,.65));
+  position: relative;
 }
+.section-hero__text:before{
+  content:'';
+  display: block;
+  background-image: url('./assets/img/pattern-hero.9dd4be84.png');
+  z-index: -1;
+  position: absolute;
+  top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .section-hero__text p{
   text-align: center;
   font-size: 18px;
