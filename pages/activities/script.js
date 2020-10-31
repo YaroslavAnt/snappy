@@ -48,7 +48,10 @@ $(document).ready(function () {
               <span class="toggle-show">Show less</span>
             </p>
             <div class="card__content-footer body2">
-              <span>${category.join(', ')}</span>
+              <div style='text-align:left'>
+                <span>${category.join(', ')}</span><br/>
+                <span>Popular: ${popular ? 'Yes' : 'No'}</span>
+              </div>
               <div>
                 <p>${dates[0]} - ${dates[1]} <i class="fas fa-clock"></i></p>
                 <p>place <i class="fas fa-map-marker-alt"></i></p>
