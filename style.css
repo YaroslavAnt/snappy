@@ -7,6 +7,19 @@ section{
     padding-top: 60px;
   }
 }
+
+
+@media screen and (min-width: 1024px){
+  .section__row{
+    display: flex;
+  }
+  .section__row--reverse{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+
 .section__icon{
   margin: 0 auto 20px;
   display: block;
@@ -83,6 +96,11 @@ section{
   grid-template-columns: repeat(3, 1fr);
   padding: 20px 0;
 }
+@media screen and (min-width: 1024px){
+  .section-used__logos{
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
 
 .section-used__logos img{
   height: 34px;
@@ -107,6 +125,12 @@ section{
     height: 330px;
   }
 }
+@media screen and (min-width: 1024px){
+  .section-smart__img{
+    height: unset;
+  }
+}
+
 
 /* ------------------------------------------------ */
 
@@ -119,6 +143,14 @@ section{
   .section-collect__img{
     margin: 20px 0 0;
     height: 330px;
+  }
+}
+@media screen and (min-width: 670px){
+  .section-collect__img{
+    height: unset;
+    margin-right: -200px;
+    position: relative;
+    z-index: -1;
   }
 }
 
@@ -135,6 +167,14 @@ section{
     height: 330px;
   }
 }
+@media screen and (min-width: 1024px){
+  .section-share__img{
+    height: unset;
+    width: 660px;
+    margin: 0 -80px;
+    flex-shrink: 0;
+  }
+}
 
 /* ------------------------------------------------ */
 
@@ -147,6 +187,12 @@ section{
   .section-sync__img{
     margin: 20px 0 0;
     height: 330px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .section-sync__img{
+    margin: 20px auto 0;
+    height: 360px;
   }
 }
 
@@ -165,6 +211,13 @@ section{
   height: 230px;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 900px;
+}
+
+@media screen and (min-width: 768px){
+  .section-manage__image{
+    height: 360px;
+  }
 }
 
 .section-manage__nav{
