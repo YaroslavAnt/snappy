@@ -176,6 +176,11 @@ $(document).ready(function () {
     if (countToShow < localActivities.length) {
       countToShow++
     }
+
+    if (countToShow === localActivities.length) {
+      $('#show-more').remove()
+    }
+
     renderCards()
   })
 
