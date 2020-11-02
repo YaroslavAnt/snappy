@@ -202,9 +202,10 @@ section{
   padding-bottom: 60px;
 }
 
-.section-manage h2, .section-manage__image{
+/* .section-manage h2,  */
+/* .section-manage__image{
   display: none;
-}
+} */
 
 .section-manage__image{
   margin: 20px auto 0;
